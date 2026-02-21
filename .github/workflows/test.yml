@@ -1,0 +1,9 @@
+name:github actions test started 
+run-name:${{github.actor}} is testing the app
+actions
+on:[push]
+jobs:
+  runs-on:ubuntu-latest
+  steps:
+  -run:echo "hello word"
+  run:echo "okay so we are testing now"
